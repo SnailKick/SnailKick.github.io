@@ -280,17 +280,29 @@ nav{
     margin-bottom: 32px;
 }
 
+.column{
+    margin-left: auto;
+    margin-right: auto;
+}
 .column2{
     float: left;
-    margin-right: 156px; 
-    margin-top: 88px;
+    padding-right: 156px; 
     color: #323e4f;
+}
+
+.column h3{
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 32px;
+    margin-bottom: -2px;
 }
 
 .column2 p{
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 32px;
+    font-size: 11px;
 }
 
 .text5{
@@ -317,7 +329,7 @@ nav{
 .footer{
     width: 100%;
     text-align: center;
-    height: 808px;
+    height: 850px;
     margin-top: 91px;
     background: url(../img/Моиконтакты/фон.jpg) center/cover no-repeat;
     color: #fff;
@@ -326,7 +338,6 @@ nav{
 
 .footer h3{
     font-weight: bold;
-    
     font-size: 22px;
     margin-bottom: 32px;
     text-transform: uppercase;
@@ -335,20 +346,27 @@ nav{
 .footer h4{
     font-weight: bold;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
+}
+.data{
+    margin-top: 32px;
 }
 
 .contacts{
-    margin-right: 156px; 
-    margin-top: 88px;
-    width: 130px;
-}
-.data{
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
 }
 
+.contacts p{
+    float: left;
+    margin-right: 103px;
+}
 
+.reviews{
+    margin-top: 200px;
+}
 .reviews input{
     width: 350px;
     height: 34px;
@@ -359,6 +377,7 @@ nav{
     padding-left: 12px;
     margin: 46px 14px 14px 14px;
 }
+
 .reviews textarea{
     width: 734px;
     height: 94px;
@@ -371,23 +390,32 @@ nav{
     padding-top: 10px;
 }
 
-.send imput{
-    margin-top: 28px;
+.send input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 16px;
+    padding: 0px 16px;
+    margin: 28px 14px 0px 14px;
 }
+
 .subtext{
     width: 100%;
-    height: 60px;
+    height: 92px;
     background: #344051;
-    
+    text-align: center;
+    padding-top: 40px;
 }
 
 .map{
     width: 100%;
+    height: 350px;
     background: url(../img/Моиконтакты/Карта.jpg) center/cover no-repeat;
 }
 
 .subtext small{
     color: #fff;
-    font-style: italic;
-    
 }
