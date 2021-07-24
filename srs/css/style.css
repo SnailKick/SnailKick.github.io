@@ -354,6 +354,8 @@ nav{
 }
 
 .contacts{
+    width: 602px;
+    height: 70px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
@@ -361,11 +363,11 @@ nav{
 
 .contacts p{
     float: left;
-    margin-right: 103px;
+    margin-right: 96px;
 }
 
 .reviews{
-    margin-top: 200px;
+    margin-top: 40px;
 }
 .reviews input{
     width: 350px;
