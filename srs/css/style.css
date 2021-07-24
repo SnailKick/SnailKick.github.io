@@ -94,6 +94,10 @@ nav{
     margin: 36px auto;
 }
 
+.button input{
+    background: #fff;
+}
+
 .text2{
     width: 100%;
     height: 520px;
@@ -110,23 +114,27 @@ nav{
 }
 
 .column{
-    width: 1172px;
-    text-align: center;
-    margin: 108px 0px 0px 404px;
+    margin-top: 108px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .column1{
-    text-align: center;
+    float: left;
     width: 210px;
     color:#79818d;
-    font-size: 16px;
-    float: left;
-    margin-right: 83px;
-    text-align: center;
+    font-size: 16px; 
+    margin-left: 22px;
+    margin-right: 22px;
 }
 
 .column1 p{
     color: #cf7600;
+}
+
+.text{
+    font-size: 12px;
+    
 }
 
 .text3{
@@ -281,12 +289,14 @@ nav{
 }
 
 .column{
+    width: 1023px;
+    height: 153px;
     margin-left: auto;
     margin-right: auto;
 }
 .column2{
+    width: 255px;
     float: left;
-    padding-right: 156px; 
     color: #323e4f;
 }
 
@@ -356,14 +366,16 @@ nav{
 .contacts{
     width: 602px;
     height: 70px;
+    margin-top: 48px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 48px;
 }
 
 .contacts p{
+    width: 200px;
+    font-size: 12px;
     float: left;
-    margin-right: 96px;
+    text-align: center;
 }
 
 .reviews{
@@ -415,7 +427,7 @@ nav{
 .map{
     width: 100%;
     height: 350px;
-    background: url(../img/Моиконтакты/Карта.jpg) center/cover no-repeat;
+    background: url(../img/Моиконтакты/Карта.png) center/cover no-repeat;
 }
 
 .subtext small{
