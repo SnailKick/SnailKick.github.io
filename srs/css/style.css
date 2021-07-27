@@ -1,5 +1,6 @@
 body{
     font-family: Arial, sans-serif;
+    
 }
 nav{
     width: 100%;
@@ -19,6 +20,11 @@ nav{
     padding-left: 818px;
 }
 
+main{
+    width: 100%;
+    height: 100%;
+}
+
 .menu li{
     float: left;
     line-height: 60px;
@@ -26,6 +32,27 @@ nav{
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase; 
+}
+
+.menu li a{
+    transition: all 0.3s;
+    color: #fff;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.menu li a:visited{
+    color: #fff;
+}
+
+.menu li a:hover{
+    color: #e88604;
+    
+    
+}
+
+.menu li a:active{
+    transform: scale(1.1);
 }
 
 .main{
@@ -336,6 +363,10 @@ nav{
     margin-bottom: 34px;
 }
 
+footer{
+    
+    
+}
 .footer{
     width: 100%;
     text-align: center;
