@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Никита Медведев - Веб-разработчик</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
 </head>
 <body>
+  <section class="load">
+   <div class="loading">
+       <span>Загрузка...</span>
+   </div>
+   </section>
     <header>
         <nav>
             <div class="logo">Никита Медведев</div>
@@ -21,6 +28,7 @@
         </nav>
     </header>
     <main>
+
     <section class="main">
         <div class="title_container">
         <h1>Привет <br>Я Медведев Никита</h1>
@@ -34,7 +42,7 @@
             <div class="container_photo"><img src="img/фотка.png" alt="Фотография"></div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, esse dicta iste iusto necessitatibus. Eum ea deserunt, consectetur reiciendis voluptatem perspiciatis harum sit voluptatum magnam asperiores voluptate nostrum .</p><br><br>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus saepe ut ipsa numquam, eveniet quis sapiente est consequuntur labore, optio eaque alias consectetur velit, esse molestias sunt. Maxime eos, cupiditate!</p><br>
-        <div class="button"> <img src="img/Обомне/иконка.jpg" alt="Иконка"> <input type="submit" value="Скачать резюме"></div>
+        <div class="button"> <img src="img/Обомне/иконка.png" alt="Иконка"> <input type="submit" value="Скачать резюме"></div>
     </section>
     <section class="text2">
         <h3>Что я умею</h3>
@@ -72,8 +80,8 @@
                 Какая то компания<br>
                 <h4>WEBSITE:</h4><br>
                 http://www.somedomain.com<br><br>
-                <form action="http://www.somedomain.com" target="_blank">
-                <button>VISIT LIVE SITE</button></form>
+                <a href="http://www.somedomain.com">
+                VISIT LIVE SITE"</a>
                 </div>
                 <div class="post2"> <h4>Название проекта</h4><br>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa sint, molestias quisquam dignissimos minus illum commodi odit expedita. Laboriosam sed, delectus totam. Error, necessitatibus neque accusantium officia? Voluptatem, obcaecati.
@@ -151,7 +159,7 @@
             <img src="img/Отзывы/Сераяточка.jpg" alt="Точка">
             <img src="img/Отзывы/Сераяточка.jpg" alt="Точка">
     </section>
-    </main>
+    
     <footer>
         <div class="footer">
         <h3>МОИ КОНТАКТЫ</h3>
@@ -180,6 +188,7 @@
         </div>
         <div class="map"></div>
         <div class="subtext"><small>Copyright@2021 Медведев Никита. Design by Web</small></div>
-    </footer>                           
+    </footer>
+    </main>                     
 </body>
 </html>
