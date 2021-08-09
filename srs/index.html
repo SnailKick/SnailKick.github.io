@@ -1,194 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Никита Медведев - Веб-разработчик</title>
-    <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
 </head>
 <body>
-  <section class="load">
-   <div class="loading">
-       <span>Загрузка...</span>
-   </div>
-   </section>
     <header>
         <nav>
-            <div class="logo">Никита Медведев</div>
-            <div class="menu"><ul>
-                <li><a href="">Обо мне</a></li>
-                <li><a href="">Услуги</a></li>
-                <li><a href="">Кейсы</a></li>
-                <li><a href="">Прайс</a></li>
-                <li><a href="">Отзывы</a></li>
-                <li><a href="">Контакты</a></li>
-            </ul></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-2 col-xl-3 col-lg-3 col-7"><div class="logo">Никита Медведев</div></div>
+                    <div class="col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block">
+                        <div class="menu">
+                        <a href="">Обо мне</a>
+                        <a href="">Услуги</a>
+                        <a href="">Кейсы</a>
+                        <a href="">Прайс</a>
+                        <a href="">Отзывы</a>
+                        <a href="">Контакты</a>
+                        </div>
+                    </div>
+                    <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+                        <div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    Навигация
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+                    </div>
+               </div>
+           </div>
         </nav>
     </header>
-    <main>
-
-    <section class="main">
-        <div class="title_container">
-        <h1>Привет <br>Я Медведев Никита</h1>
-        <h4>Фулл стек веб-разработчик</h4>
-            <input type="submit" value="Обо мне">
-            <input type="submit" value="Мои работы">
-        </div></section>
-    <section class="text1">
-        <h3>Обо мне</h3>
-        <img src="img/Обомне/Чертазаголовка.png" alt="Черта заголовка"><br>
-            <div class="container_photo"><img src="img/фотка.png" alt="Фотография"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, esse dicta iste iusto necessitatibus. Eum ea deserunt, consectetur reiciendis voluptatem perspiciatis harum sit voluptatum magnam asperiores voluptate nostrum .</p><br><br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus saepe ut ipsa numquam, eveniet quis sapiente est consequuntur labore, optio eaque alias consectetur velit, esse molestias sunt. Maxime eos, cupiditate!</p><br>
-        <div class="button"> <img src="img/Обомне/иконка.png" alt="Иконка"> <input type="submit" value="Скачать резюме"></div>
-    </section>
-    <section class="text2">
-        <h3>Что я умею</h3>
-        <img src="img/Чтояумею/Чертазаголовка.png" alt="Черта заголовка"><br>
-             <div class="column">
-                 <div class="column1">
-                     <p><img src="img/Чтояумею/ноут.png" alt="Ноутбук"></p><br>
-                     <p>Веб-дизайн</p><br>
-                     <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                 </div>
-                 <div class="column1">
-                     <p><img src="img/Чтояумею/знак.png" alt="Стрелки"></p><br>
-                     <p>Разработка</p><br>
-                     <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                 </div>
-                 <div class="column1">
-                    <p><img src="img/Чтояумею/ракета.png" alt="Ракета"></p><br>
-                    <p>СЕО-Оптимизация</p><br>
-                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                 </div>
-                 <div class="column1">
-                     <p><img src="img/Чтояумею/граммофон.png" alt="Граммофон"></p><br>
-                     <p>Маркетинг</p><br>
-                     <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                 </div>
-            </div>
-    </section>
-    <section class="text3">
-        <h3>Кейсы</h3>
-        <img src="img/Кейсы/Чертазаголовка.png" alt="Черта заголовка"><br><br><br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora provident dolore itaque ea esse architecto assumenda eligendi necessitatibus iste.</p>
-        <img src="img/Кейсы/скриншот.jpg" alt="Фотография сайта">
-            <div class="post">
-                <div class="post1"><h4>CLIENT:</h4><br>
-                Какая то компания<br>
-                <h4>WEBSITE:</h4><br>
-                http://www.somedomain.com<br><br>
-                <a href="http://www.somedomain.com">
-                VISIT LIVE SITE"</a>
-                </div>
-                <div class="post2"> <h4>Название проекта</h4><br>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa sint, molestias quisquam dignissimos minus illum commodi odit expedita. Laboriosam sed, delectus totam. Error, necessitatibus neque accusantium officia? Voluptatem, obcaecati.
-                </div>
-            </div>
-    </section>  
-    <section class="calc">
-        <h3>Расчет стоимости</h3>
-        <div class="calc1">
-            <h4>Тип сайта</h4><br>
-                <select name="sitetype" id="sitetype">
-                <option value="">Выберите пункт...</option>
-                <option value="Opt1">Интернет представительство</option>
-                <option value="Opt2">Лэндинг</option>
-                <option value="Opt3">Интернет-викторина (интернет магазин)</option>
-                <option value="Opt4">Информационные сайты и порталы</option>
-                </select>
-            <h4>Дизайн</h4><br>
-                <select name="design" id="design">
-                <option value="Opt5">Выберите пункт...</option>
-                <option value="Opt6">Hand Draw</option>
-                <option value="Opt7">Flat Design</option>
-                <option value="Opt8">Material Design</option>
-                <option value="Opt9">Ретро-стиль</option>
-                <option value="Opt10">Стиль Apple</option>
-                </select>
-            <h4>Адаптивность</h4><br>
-                <select name="adaptability" id="adaptability">
-                <option value="Opt11">Выберите пункт...</option>
-                <option value="Opt12">Адаптивный макет</option>
-                <option value="Opt13">Отзывчивый макет</option>
-                <option value="Opt14">Смешанный макет</option>
-            </select>
-        </div>
-        <div class="values">
-            <p class="municipalities"><b>Сроки</b></p>
-            <p class="number"><b>0</b></p><br>
-            <p class="municipalities"><b>Стоимость</b></p>
-            <p class="number"><b>0</b></p>
-        </div>
-    </section>
-    <section class="text4">
-        <h3>Немного статистики</h3>
-        <img src="img/Немногостатистики/Чертазаголовка.png" alt="Черта заголовка"><br>
-        <div class="column">
-            <div class="column2">
-                <img src="img/Немногостатистики/смайл.png" alt="Смайл">
-                <h3>350</h3>
-                <p>Счастливые клиенты</p>
-            </div>
-            <div class="column2">
-                <img src="img/Немногостатистики/скобки.png" alt="Скобки">
-                <h3>450</h3>
-                <p>Часов работы</p>
-            </div>
-            <div class="column2">
-                <img src="img/Немногостатистики/галочка.png" alt="Галочка">
-                <h3>550</h3>
-                <p>Проектов завершено</p>
-            </div>
-            <div class="column2">
-                 <img src="img/Немногостатистики/кубок.png" alt="Кубок">
-                <h3>650</h3>
-                <p>Наград получено</p>
-            </div>
-        </div>
-    </section>
-    <section class="text5">
-        <h3>Отзывы</h3>
-            <img src="img/Отзывы/Чертазаголовка.png" alt="Черта заголовка">
-            <p class="photo"><img src="img/Отзывы/фото.png" alt="Фотография"></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae magnam nam culpa autem a ratione neque at! Non, consequuntur. Dolor eum labore nisi rem cum necessitatibus molestiae maiores in amet!</p><br>
-            <p><b>Михаил</b>,Ген Директор ПАО "Газпром".</p><br><br><br>
-            <img src="img/Отзывы/Оранжточка.jpg" alt="Точка">
-            <img src="img/Отзывы/Сераяточка.jpg" alt="Точка">
-            <img src="img/Отзывы/Сераяточка.jpg" alt="Точка">
-    </section>
-    
-    <footer>
-        <div class="footer">
-        <h3>МОИ КОНТАКТЫ</h3>
-            <img src="img/Моиконтакты/Чертазаголовка.png" alt="Черта заголовка">
-                <p class="data">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <div class="contacts">     
-                    <p><img src="img/Моиконтакты/геолокация.png" alt="Геолокация"><br><br>
-                    Омск<br><br>Улица</p>
-                    <p><img src="img/Моиконтакты/конверт.png" alt="Почта"><br><br>
-                    info@companyname.com</p>
-                    <p><img src="img/Моиконтакты/телефон.png" alt="Телефон"><br><br>
-                    +7 999 999 99 99</p>
-                </div>
-            
-            <form action="handler.php">
-                <div class="reviews">
-                    <h4>ОСТАВЬ МНЕ СООБЩЕНИЕ</h4>
-                    <input type="text" placeholder="Имя">
-                    <input type="text" placeholder="Email"><br>
-                    <textarea placeholder="Сообщение"></textarea><br>
-                </div>
-                    <div class="send">
-                        <input type="submit" value="Отправить">
-                    </div>
-            </form>
-        </div>
-        <div class="map"></div>
-        <div class="subtext"><small>Copyright@2021 Медведев Никита. Design by Web</small></div>
-    </footer>
-    </main>                     
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
