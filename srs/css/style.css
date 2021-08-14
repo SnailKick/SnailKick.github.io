@@ -1,3 +1,13 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
 nav{
     width: 100%;
     height: 60px;
@@ -6,7 +16,7 @@ nav{
 
 .logo{
     color: #fff;
-    font-size: 18px;
+    font-size: 22px;
     float: left;
     line-height: 60px;
     font-weight: 600;
@@ -33,7 +43,7 @@ main{
 }
 
 .main{
-    width: 100%;
+    height: 100%;
     background: url(../img/Парень.png) 90% 100%/auto 85% no-repeat, url(../img/фон.jpg) center/cover no-repeat;
     box-shadow: inset 0 -15px 50px 0px rgba(132, 138, 149, 1);
 }
@@ -65,6 +75,8 @@ main{
     border-radius: 5px;
     color:#79818d;
     font-size: 13px;
+    padding: 0px 16px;
+    margin: 58px 14px 0px 14px;
 }
 
 @media (max-width: 991px){
@@ -89,6 +101,21 @@ main{
         background: rgba(0,0,0,0.3)
     }
 }
+
+.text1{
+    
+}
+.text1 h3{
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.col-2{
+    text-align: center;
+}
+
+
     
     
     
